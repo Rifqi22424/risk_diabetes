@@ -961,6 +961,25 @@
 </head>
 <body>
 
+<!-- ============================================================
+     MAINTENANCE MODE
+     To turn maintenance mode ON: delete the "<!--" line right below
+     and the "-->" line at the bottom of this block.
+     To turn it OFF again: put the comment markers back (or delete the block).
+     ============================================================ -->
+
+<div style="position:fixed;inset:0;z-index:99999;background:#0f172a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:system-ui,-apple-system,sans-serif;">
+  <div style="font-size:56px;margin-bottom:16px;">🛠️</div>
+  <h1 style="font-size:28px;margin:0 0 12px;">Sedang Dalam Pemeliharaan</h1>
+  <p style="font-size:16px;color:#cbd5e1;max-width:480px;margin:0;">
+    Situs sedang dalam perbaikan sementara. Silakan kembali lagi beberapa saat lagi. Terima kasih atas pengertiannya.
+  </p>
+</div>
+
+<!-- ============================================================
+     END MAINTENANCE MODE
+     ============================================================ -->
+
 <!-- NAVBAR -->
 <nav class="navbar" id="navbar">
   <a class="nav-logo" href="#" onclick="showPage('home')">
